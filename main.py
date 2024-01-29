@@ -17,11 +17,11 @@ config = {
     },
     "attacker_config": {
         "mode": 0,  # 0: no attack,
-        # 1: naive attack
-        # 2: non-perturb attack
-        # 2.5: primitive max-gain attack
-        # 3: target refine + max-gain attack
-        # 4: proposed attack
+        # 1: RRA
+        # 2: RSA
+        # 2.5: MGA-R
+        # 3: MGA-Adv
+        # 4: AOA
         "alpha": 0.01,  # malicious/benign
         "knowledge": 1,
         "mima": 0,  # attacker access to user reports/user data
